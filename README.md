@@ -44,7 +44,7 @@ Before you begin, ensure you have met the following requirements:
    Open your terminal (Command Prompt, PowerShell, or any terminal of your choice) and run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/weather-dashboard.git
+   git clone https://github.com/AhmadFarooq912/my-weather-dashboard.git
    cd weather-dashboard
    ```
 
