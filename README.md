@@ -1,73 +1,74 @@
+
+# Muhammad Ahmad
+**BS-SE**  
+**Roll Number: 22I-2711**
+
 # Weather Dashboard
 
 ## Overview
 
-Weather Dashboard is a responsive web application that provides real-time weather information and forecasts. It features a clean, modern interface with interactive charts, a data table, and a chatbot for weather-related queries.
+Weather Dashboard is a responsive web application that provides real-time weather information and forecasts. It features a clean, modern interface with interactive charts, a data table, and a chatbot for answering weather-related queries.
+
+### Live URL
+
+[View the live Weather Dashboard](https://AhmadFarooq912.github.io/my-weather-dashboard)
 
 ## Features
 
-- Current weather display
-- 5-day weather forecast
-- Interactive weather charts
-- Searchable locations
-- Unit toggle between Celsius and Fahrenheit
-- Data table with sorting and filtering options
-- AI-powered chatbot for weather-related questions
+- **Current Weather Display**: View real-time weather conditions.
+- **5-Day Weather Forecast**: Get a detailed outlook for the upcoming days.
+- **Interactive Weather Charts**: Visualize weather trends with engaging charts.
+- **Searchable Locations**: Easily find weather information for different cities.
+- **Unit Toggle**: Switch between Celsius and Fahrenheit.
+- **Data Table**: Sort and filter weather data efficiently.
+- **AI-Powered Chatbot**: Ask questions and receive intelligent responses about the weather.
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Chart.js for data visualization
-- OpenWeatherMap API for weather data
-- Gemini AI API for the chatbot functionality
+- **HTML5**: For structure and content.
+- **CSS3**: For styling and layout.
+- **JavaScript (ES6+)**: For interactivity and functionality.
+- **Chart.js**: For data visualization.
+- **OpenWeatherMap API**: To fetch weather data.
+- **Gemini AI API**: For chatbot functionality.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have a modern web browser installed (Chrome, Firefox, Safari, or Edge)
-- You have obtained API keys for OpenWeatherMap and Gemini AI
+- A modern web browser installed (e.g., Chrome, Firefox, Safari, or Edge).
+- API keys for OpenWeatherMap and Gemini AI.
 
 ## Installation and Running the Project Locally
-
-### Prerequisites
-
-1. **Web Browser**: Ensure you have a modern web browser (e.g., Chrome, Firefox, Safari).
-2. **Code Editor**: Optional, but recommended for editing and customizing code (e.g., Visual Studio Code, Atom).
 
 ### Steps to Run Locally
 
 1. **Clone the Repository**:
 
-   Open your terminal (Command Prompt, PowerShell, or any terminal of your choice) and run the following command to clone the repository:
+   Open your terminal and run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/AhmadFarooq912/my-weather-dashboard.git
-   cd weather-dashboard
+   git clone https://github.com/AhmadFarooq912/my-weather-dashboard
+   cd my-weather-dashboard
    ```
 
-   Replace `yourusername` with your actual GitHub username or the appropriate repository link.
+2. **Obtain API Keys**:
 
-2. **Obtain an API Key**:
-
-   Sign up for an API key at [OpenWeather](https://openweathermap.org/api) and replace the `apiKey` variable in `script.js` with your key:
+   Sign up for API keys at [OpenWeather](https://openweathermap.org/api) and [Gemini AI](https://gemini.com/api) (or the appropriate link). Replace the `apiKey` variable in `script.js` with your actual key:
 
    ```javascript
-   const apiKey = {API_KEY}; // Replace YOUR_API_KEY with your actual API key
+   const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
    ```
 
 3. **Open the Project in a Browser**:
 
-   - You can open the `index.html` file directly in your web browser. To do this, navigate to the cloned folder and double-click on `index.html`.
+   - You can open the `index.html` file directly in your web browser by navigating to the cloned folder and double-clicking on `index.html`.
 
-   - Alternatively, for a better experience (especially if you're using AJAX requests), you can serve the files using a local server. Here are two simple ways to do this:
+   - For a better experience (especially for AJAX requests), serve the files using a local server. Here are two simple methods:
 
-
-   - **Using Live Server extension in Visual Studio Code**:
-
-     If you are using Visual Studio Code, you can install the **Live Server** extension. Once installed, right-click on `index.html` and select "Open with Live Server".
+     - **Using Live Server Extension in Visual Studio Code**:
+       - Install the **Live Server** extension.
+       - Right-click on `index.html` and select "Open with Live Server."
 
 ## Usage
 
@@ -78,15 +79,25 @@ Before you begin, ensure you have met the following requirements:
 
 ## Customization
 
-- You can customize the CSS in `styles.css` to modify the appearance of the dashboard.
-- Adjust the chart configurations and data processing logic in `script.js` as needed.
+- Modify the CSS in `styles.css` to change the dashboard's appearance.
+- Adjust chart configurations and data processing logic in `script.js` as needed.
 
 ## Contact
 
-If you want to contact me, you can reach me at `i222711@nu.edu.pk`.
+For inquiries or feedback, you can reach me at **i222711@nu.edu.pk**.
 
 ## Acknowledgements
 
-- OpenWeatherMap for providing the weather data API
-- Google for the Gemini AI API
-- Chart.js for the charting library
+- **OpenWeatherMap** for providing the weather data API.
+- **Gemini AI** for the chatbot functionality.
+- **Chart.js** for the charting library.
+
+---
+
+### Improvements Made:
+- Enhanced clarity with bold headers and structured sections.
+- Added a more descriptive Live URL section.
+- Minor grammatical and phrasing improvements for better readability.
+- Suggested the link for Gemini AI for completeness.
+
+Feel free to tweak any part further or let me know if you need any additional changes!
